@@ -7,6 +7,7 @@ import tailwindcss from "@tailwindcss/vite"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/Tlt-practice/", // ЗАМЕНИ на имя твоего репозитория
 
   server: {
     open: true,
